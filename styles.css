@@ -19,8 +19,9 @@ body {
     box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
-.container h2 {
-    color: #45a049;
+
+.container h1 {
+    color: white;
 }
 
 label {
@@ -29,16 +30,17 @@ label {
 }
 
 input {
-    width: calc(100% - 16px); /* Calculate the width considering padding */
+    width: calc(90% - 16px); /* Calculate the width considering padding */
     padding: 8px;
     margin-top: 5px;
     margin-right: 8px; /* Equal margin on the right */
     margin-left: 8px; /* Equal margin on the left */
+    border-radius: 6px;
     box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
 button {
-    width: calc(100% - 16px); /* Calculate the width considering padding */
+    width: calc(90% - 16px); /* Calculate the width considering padding */
     padding: 10px;
     margin-top: 20px;
     background-color: #4CAF50;
