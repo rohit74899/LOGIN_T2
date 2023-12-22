@@ -22,7 +22,7 @@ function validateLogin(event) {
     if (password === 'SmartServTest@123') {
         alert('Login successful! Redirecting to the dashboard...');
         // Here you can redirect to the dashboard page or load its content dynamically.
-        window.location.href = 'DashBoard.html';
+        window.location.href = 'dashboard.html';
     } else {
         alert('Incorrect password. Please try again.');
     }
