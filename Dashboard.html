@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="metric-title" style=" font-weight: bold;">Company Metrics</div>
+
+        <div class="metrics-container">
+            
+            <div class="metric-row">
+                <div class="metric" id="totalRevenue">
+                    Total Revenue: $1,000,000
+                </div>
+                <div class="metric" id="totalJobs">Total Jobs: 500</div>
+                <div class="metric" id="ticketsCreated">Tickets Created: 200</div>
+            </div>
+
+            <div class="metric-row">
+                <div class="metric" id="outstandingAmount">Outstanding Amount: $100,000</div>
+                <div class="metric" id="membershipsSold">Memberships Sold: 50</div>
+                <div class="metric" id="jobsCompleted">Jobs Completed: 300</div>
+            </div>
+
+            <div class="metric-row">
+                <div class="metric" id="revenueByLocation">Revenue by Job Location:</div>
+                <div class="metric" id="revenueByJobType">Revenue by Job Type:</div>
+            </div>
+        </div>
+
+        <div class="charts-container">
+            <div class="chart" id="revenueByLocationChart"></div>
+            <div class="chart" id="revenueByJobTypeChart"></div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
